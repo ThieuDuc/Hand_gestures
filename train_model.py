@@ -118,6 +118,6 @@ model.fit(X_train, y_train, epochs=50, batch_size=8, validation_data=(X_test, y_
           callbacks=[early_stopping, model_checkpoint])
 
 # Luu model da train ra file
-model.save('models/saved_model.hdf5')
+model.save('models/mymodel.h5')
 
 
